@@ -1,0 +1,1 @@
+In this scenario, we'll understand about layers in docker image.
