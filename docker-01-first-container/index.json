@@ -3,6 +3,7 @@
   "description": "First steps to run your first container",
   "difficulty": "Beginner",
   "time": "10 minutes",
+  "pathwayTitle": "Docker 101",
   "details": {
     "steps": [
       {
