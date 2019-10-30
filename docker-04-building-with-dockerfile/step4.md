@@ -18,7 +18,7 @@ Enhance our existing `Dockerfile` with following content.
 `cat > Dockerfile << EOF
 FROM alpine:latest
 RUN apk add --update apache2
-COPY html /var/www/html
+COPY html /var/www/localhost/htdocs
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-DFOREGROUND"]
 EOF`{{execute}}

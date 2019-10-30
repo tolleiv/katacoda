@@ -7,11 +7,11 @@ Enhance our existing `Dockerfile` with following content.
 `cat > Dockerfile << EOF
 FROM alpine:latest
 RUN apk add --update apache2
-COPY html /var/www/html
+COPY html /var/www/localhost/htdocs
 EXPOSE 80
 ARG DATA
-RUN echo $DATA > /var/www/html/data.txt
-CMD ["/usr/bin/httpd", "-DFOREGROUND"]
+RUN echo \$DATA > /var/www/localhost/htdocs/data.txt
+CMD ["/usr/sbin/httpd", "-DFOREGROUND"]
 EOF`{{execute}}
 
 Build it with the argument:
