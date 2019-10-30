@@ -3,6 +3,7 @@
   "description": "Learn how to build docker image from Dockerfile",
   "difficulty": "Beginner",
   "time": "10 minutes",
+  "pathwayTitle": "Docker 101",
   "details": {
     "steps": [
       {
@@ -28,6 +29,10 @@
       {
         "title": "Step 6",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
       }
     ],
     "intro": {

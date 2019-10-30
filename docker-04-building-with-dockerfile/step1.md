@@ -1,4 +1,5 @@
 # Write Dockerfile
+
 In this step we shall create Dockerfile.
 
 Create a Dockerfile with following content in current directory. `cat > Dockerfile << EOF
