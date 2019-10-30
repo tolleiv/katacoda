@@ -2,16 +2,16 @@
 
 We need to create a `index.html` file in html directory with following content.
 
-```<!DOCTYPE html>
-<html>
-  <head>
-    <title>This is a title</title>
-  </head>
-  <body>
-    <p>Hello world!</p>
-  </body>
-</html>
-```{{copy}}
+<pre class="file" data-filename="html/index.html" data-target="replace">&#x3C;!DOCTYPE html&#x3E;
+&#x3C;html&#x3E;
+  &#x3C;head&#x3E;
+    &#x3C;title&#x3E;This is a title&#x3C;/title&#x3E;
+  &#x3C;/head&#x3E;
+  &#x3C;body&#x3E;
+    &#x3C;p&#x3E;Hello world!&#x3C;/p&#x3E;
+  &#x3C;/body&#x3E;
+&#x3C;/html&#x3E;
+</pre>
 
 Enhance our existing `Dockerfile` with following content.
 
