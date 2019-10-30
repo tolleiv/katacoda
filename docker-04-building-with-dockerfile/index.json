@@ -5,6 +5,11 @@
   "time": "10 minutes",
   "pathwayTitle": "Docker 101",
   "details": {
+    "assets": {
+      "host01": [
+        {"file": "index.html", "target": "/root/html/index.html"}
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
@@ -20,6 +25,7 @@
       },
       {
         "title": "Step 4",
+        "courseData": "mkdir html; touch html/index.html",
         "text": "step4.md"
       },
       {
@@ -32,6 +38,7 @@
       },
       {
         "title": "Step 7",
+        "courseData": "mkdir html; touch html/index.html",
         "text": "step7.md"
       }
     ],
