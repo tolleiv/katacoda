@@ -2,11 +2,11 @@
 
 In this step we shall create Dockerfile.
 
-Create a Dockerfile with following content in current directory. `cat > Dockerfile << EOF
+Create a Dockerfile with following content in current directory `cat > Dockerfile << EOF
 FROM alpine:latest
 RUN apk add --update apache2
 EXPOSE 80
-CMD ["/usr/bin/httpd", "-DFOREGROUND"]
+CMD ["/usr/sbin/httpd", "-DFOREGROUND"]
 EOF`{{execute}}
 
 Verify the file: `cat Dockerfile`{{execute}}

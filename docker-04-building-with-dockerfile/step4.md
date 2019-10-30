@@ -10,7 +10,8 @@ We need to create a `index.html` file in html directory with following content.
   <body>
     <p>Hello world!</p>
   </body>
-</html>`{{copy}}
+</html>
+`{{copy}}
 
 Enhance our existing `Dockerfile` with following content.
 
@@ -19,7 +20,7 @@ FROM alpine:latest
 RUN apk add --update apache2
 COPY html /var/www/html
 EXPOSE 80
-CMD ["/usr/bin/httpd", "-DFOREGROUND"]
+CMD ["/usr/sbin/httpd", "-DFOREGROUND"]
 EOF`{{execute}}
 
 Verify the Dockerfile: `cat Dockerfile`{{execute}}
