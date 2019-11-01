@@ -28,6 +28,9 @@ This should usually show you sth like: `Verified OK` and confirm that the file.
 Using a manipulated `file.txt` would show `Verification Failure`:
 
 `echo "manipulation" >> file.txt`{{execute}}
+
+Running the verification again:
+
 `openssl dgst -sha256 -verify public.pem -signature /tmp/sign.sha256 file.txt`{{execute}}
 
 

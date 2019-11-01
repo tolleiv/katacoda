@@ -1,5 +1,5 @@
 {
-  "title": "Working with Keys to ensure identity",
+  "title": "Working with Keys to ensure identity and authenticity",
   "description": "",
   "difficulty": "Intermediate",
   "time": "10 minutes",
@@ -7,19 +7,18 @@
     "steps": [
       {
         "title": "Step 1",
+        "courseData": "clear.sh",
         "text": "step1.md"
       },
       {
         "title": "Step 2",
+        "courseData": "clear.sh",
         "text": "step2.md"
       },
       {
         "title": "Step 3",
+        "courseData": "clear.sh",
         "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
       }
     ],
     "intro": {

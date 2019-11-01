@@ -1,3 +1,0 @@
-# Using symetric keys to encrypt large files
-
-... tbd ...
